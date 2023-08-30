@@ -9,32 +9,51 @@
 .nav ul{
     display: flex;
     justify-content: center;
-    margin: 10px;
+    margin-top: 25px;
     gap: 70px;
 }
 
 .nav a{
     text-decoration: none; 
-    font-family: Montserrat;
+    font-family: DM Sans;
     font-weight: 500;
 }
 
-.nav h1{
+.header{
+    height: 650px;
     display: flex;
+    align-items: center;
     justify-content: center;
-    font-family: Montserrat;
-    font-weight: 700;
-    font-size: 100px;
-    margin-top: 15vh;
+    gap: 14vh;
+    margin-left: 5vh;
+    margin-right: 5vh;
 }
 
-.nav h2{
-    display: flex;
-    justify-content: center;
-    margin: 3vh;
-    font-family: Montserrat;
-    font-weight: 600;
-    font-size: 38px;
+.header-text{
+    line-height: 1.4;
+}
+
+.header h1{
+    font-family: DM Sans;
+    font-size: 70px;
+    font-weight: 700;
+}
+
+.header h2{
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.header h3{
+    font-family: DM Sans;
+    font-size: 22px;
+    font-weight: 200;
+}
+
+.header img{
+    height: 200px;
+    border-radius: 15%;
 }
 
 .about{
