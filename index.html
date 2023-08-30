@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ray Thomas Portfolio</title>
-    <style>
-        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
-      </style>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/styles/reset.css">
     <link rel="stylesheet" href="./assets/styles/styles.css">
 </head>
@@ -17,38 +17,47 @@
             <li><a link href="#">Work</a></li>
             <li><a link href="#">Contact</a></li>
         </ul>
-        <h1>Ray Thomas</h1>
-        <h2>Full-Stack Web Developer</h2>
     </navbar>
 
     <main>
-        <section class="about"> 
+        <header class="header">
+            <section class="header-text">
+                <h2>Hi, my name is</h2>
+                <h1>Ray Thomas</h1>
+                <h3>I'm a Full-Stack Web Developer from Phoenix, AZ</h3>
+            </section>
+
+            <section>
+                <img src="./assets/images/Ray_Profile.jpg" alt="Personal Picture of Ray">
+            </section>
+        </header>
+
+        <about class="about"> 
             <h2>About Me</h2>
             <p>My name is Ray Thomas and I am a 24 year old web-developer from Phoenix, AZ. I graduated from Grand Canyon University in 2021 with a bachelor's degree in 
                 Advertising and Graphic Design. I then went on to complete the Full-Stack Web Developer Bootcamp in Febrauary 2024. I love problem solving and 
                 being able to use multiple codinglanguages as well as my graphic design background, I have a wide variety of skills that are useful to developing web applications
                 and websites.
             </p>
-        </section>
+        </about>
 
-        <section class="work">
+        <work class="work">
             <h2>Work</h2>
             <ul>
                 <li><a href="#">First App</a></li>
                 <li><a href="#">Second App</a></li>
                 <li><a href="#">Third App</a></li>
             </ul>
-            
-        </section>
+        </work>
 
-        <section class="contact">
+        <contact class="contact">
             <h2>Contact Me</h2>
             <ul>
                 <li><a href="#">Email</a></li>
                 <li><a href="#">Phone Number</a></li>
                 <li><a href="#">Resume</a></li>
             </ul>
-        </section>
+        </contact>
 
         
     </main>
