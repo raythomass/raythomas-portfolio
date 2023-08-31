@@ -1,6 +1,6 @@
-/* *{
-    background-color: #161616;
-} */
+html{
+    scroll-behavior: smooth;
+}
 
 /* STYLES FOR NAV SECTION */
 
@@ -117,14 +117,14 @@
 #work-main img{
     display: flex;
     flex-direction: column;
-    height: 350px;
+    height: 350px;  
 }
 
 .work-apps img{
     display: flex;
     flex-direction: column;
-    height: 350px;
-}
+    height: 350px;  
+} 
 
 .work a{
     text-decoration: none;
@@ -197,4 +197,85 @@ footer p{
     font-size: 16px;
     font-weight: 300;
     line-height: 1.5;
+}
+
+/* STYLES FOR MEDIA QUERIES */
+
+@media screen and (max-width:1300px) {
+    #work-main img{
+        height: 300px;  
+    }
+
+    .work-apps img{
+        height: 300px;  
+    } 
+}
+
+@media screen and (max-width:992px) {
+    .work{
+    height: 1200px;
+}
+
+.work ul{
+    flex-direction: column;
+    gap: 8vh;
+}
+
+#work-main img{
+    height: 300px;  
+}
+
+.work-apps img{
+    height: 300px;  
+} 
+}
+
+@media screen and (max-width:768px) {
+    .header{
+        margin-left: 7vh;
+        margin-right: 7vh;
+    }
+
+    .header h1{
+        font-size: 60px;
+    }
+    
+    .header h3{
+        font-size: 20px;
+    }
+    
+    .header img{
+        height: 150px;
+    }
+}
+
+@media screen and (max-width: 576px){
+    .header{
+        margin-left: 9vh;
+        margin-right: 9vh;
+    }
+
+    .header h1{
+        font-size: 45px;
+    }
+    
+    .header h3{
+        font-size: 16px;
+    }
+    
+    .header img{
+        height: 150px;
+    }
+
+    .about p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 200;
+        line-height: 1.5;
+        margin-top: 3vh;
+    }
+
+    .contact{
+        height: 200px;
+    }
 }
