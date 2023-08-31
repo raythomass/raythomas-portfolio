@@ -16,9 +16,14 @@
 }
 
 .nav a{
+    color: rgb(62, 117, 220);
     text-decoration: none; 
     font-family: DM Sans;
     font-weight: 500;
+}
+
+.nav a:hover{
+    text-decoration: underline;
 }
 
 /* STYLES FOR HEADER SECTION */
@@ -123,12 +128,48 @@
 
 .work a{
     text-decoration: none;
+    color: black;
 }
 
 .work figcaption{
     font-family: DM Sans;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 18px;
     margin-top: 1vh;
 }
 
+/* STYLES FOR CONTACT SECTION */
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.contact h2{
+    font-family: DM Sans;
+    font-weight: 600;
+    font-size: 26px;
+}
+
+.contact ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20vh;
+    margin-top: 3vh;
+}
+
+.contact a{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgb(62, 117, 220);
+}
+
+.contact a:hover{
+    text-decoration: underline;
+}
