@@ -121,3 +121,14 @@
     height: 350px;
 }
 
+.work a{
+    text-decoration: none;
+}
+
+.work figcaption{
+    font-family: DM Sans;
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 1vh;
+}
+
