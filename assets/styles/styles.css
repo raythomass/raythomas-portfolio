@@ -173,3 +173,28 @@
 .contact a:hover{
     text-decoration: underline;
 }
+
+/* STYLES FOR FOOTER SECTION */
+
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+
+    background-color: rgb(220, 220, 220);
+}
+
+footer h2{
+    font-family: DM Sans;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+footer p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.5;
+}
